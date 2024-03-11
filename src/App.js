@@ -2,8 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+  const headerText = 'This is Postit!';
+
+
   return (
     <div className="App">
+      <h1>{headerText}</h1>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -18,6 +23,10 @@ function App() {
           Learn React
         </a>
       </header>
+      <body>
+
+        We're in the body of the project
+      </body>
     </div>
   );
 }
